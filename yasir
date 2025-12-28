@@ -1,0 +1,13 @@
+# Kullanıcıdan metin al
+metin = input("Bir metin girin: ")
+
+# Metnin uzunluğunu kontrol et
+if len(metin) > 10:
+    # İlk 10 karakteri al ve '...' ekle
+    sonuc = metin[:10] + "..."
+else:
+    # Metin olduğu gibi kalsın
+    sonuc = metin
+
+# Sonucu yazdır
+print("Sonuç:", sonuc)
